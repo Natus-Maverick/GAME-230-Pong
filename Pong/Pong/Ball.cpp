@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-float Raid = 2.667;
+float Raid;
 float V = 0.1f;
 float pi = 3.1416;
 
@@ -15,6 +15,8 @@ Ball::Ball(float startX, float startY)
 	ballShape.setPosition(position);
 	ballShape.setFillColor(Color::Red);
 
+	srand(time(0));
+	Raid = (rand()%40 + 80)* 0.01 * pi;
 	xVelocity = V * cos(Raid);
 	yVelocity = V * sin(Raid);
 
@@ -43,15 +45,15 @@ void Ball::reboundSides()
 void Ball::reboundBat1()
 {
 	float Velocity = sqrt((xVelocity * xVelocity) + (yVelocity * yVelocity)) * 1.1;
-	xVelocity = Velocity;
-	yVelocity = 0;
+	xVelocity = Velocity * cos(1.93*pi);
+	yVelocity = Velocity * sin(1.93*pi);
 }
 
 void Ball::reboundBat2()
 {
 	float Velocity = sqrt((xVelocity * xVelocity) + (yVelocity * yVelocity)) * 1.1;
-	xVelocity = -Velocity;
-	yVelocity = 0;
+	xVelocity = Velocity * cos(0.93*pi);
+	yVelocity = Velocity * sin(0.93*pi);
 }
 
 void Ball::rebound1()
@@ -112,6 +114,8 @@ void Ball::hitLeft()
 {
 	position.y = 384;
 	position.x = 512;
+	srand(time(0));
+	Raid = (rand() % 40 + 80)* 0.01 * pi;
 	xVelocity = V * cos(Raid);
 	yVelocity = V * sin(Raid);
 }
@@ -120,6 +124,8 @@ void Ball::hitRight()
 {
 	position.y = 384;
 	position.x = 512;
+	srand(time(0));
+	Raid = (rand() % 40 - 20)* 0.01 * pi;
 	xVelocity = V * cos(Raid);
 	yVelocity = V * sin(Raid);
 }

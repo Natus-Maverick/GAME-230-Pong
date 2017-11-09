@@ -144,21 +144,21 @@ int main()
 		}
 
 		//A.I. 0
-		if (ball.getYAxis() > ai0.getPosition().top + 50)
+		if (ball.getYAxis() > ai0.getPosition().top + 75)
 		{
 			ai0.moveDown();
 		}
-		if (ball.getYAxis() < ai0.getPosition().top - 50 && ai0.getPosition().top > windowHeight / 2 + 1)
+		if (ball.getYAxis() < ai0.getPosition().top && ai0.getPosition().top > windowHeight / 2 + 1)
 		{
 			ai0.moveUp();
 		}
 
 		//A.I. 1
-		if (ball.getYAxis() > ai1.getPosition().top + 50)
+		if (ball.getYAxis() > ai1.getPosition().top + 75)
 		{
 			ai1.moveDown();
 		}
-		if (ball.getYAxis() < ai1.getPosition().top - 50 && ai1.getPosition().top > windowHeight / 2 + 1)
+		if (ball.getYAxis() < ai1.getPosition().top && ai1.getPosition().top > windowHeight / 2 + 1)
 		{
 			ai1.moveUp();
 		}

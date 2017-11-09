@@ -1,6 +1,40 @@
-﻿  BatBlue.cpp
-  正在生成代码...
-  正在跳过...(未检测到相关更改)
-  main.cpp
+﻿  Ball.cpp
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(7): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(18): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(47): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(49): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(54): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(55): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(56): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(61): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(62): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(63): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(67): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(68): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(69): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(73): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(74): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(75): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(79): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(80): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(81): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(85): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(86): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(87): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(91): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(92): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(93): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(97): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(98): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(99): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(103): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(104): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(105): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(117): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(118): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(127): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\natus maverick\source\repos\pong\pong\ball.cpp(128): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
   Pong.vcxproj -> C:\Users\Natus Maverick\source\repos\Pong\Debug\Pong.exe
   Pong.vcxproj -> C:\Users\Natus Maverick\source\repos\Pong\Debug\Pong.pdb (Partial PDB)
